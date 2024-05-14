@@ -1,10 +1,7 @@
-import { toFarenheit, toCelsius } from "../src/hello";
+import { greeter } from "../src/hello";
 
-describe("Temp functions", () => {
-    it("-40 == -40", () => {
-      expect(toFarenheit(-40)).toEqual(-40);
+describe("Util functions", () => {
+    it("Greeter test", () => {
+      expect(greeter("John")).toEqual("Hello, John!");
     });
-    it("toCelsius: -40 == -40", () => {
-        expect(toCelsius(-40)).toEqual(-40);
-      });
   });
