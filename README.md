@@ -4,9 +4,9 @@ Google Apps Script is a very useful tool, but when projects become large they ca
 
 This repo intends to be an example of how to set up clasp with a google app scripts project. It is meant to be used as a template (not forked).
 
-### High Level Overview of Clasp
+## High Level Overview of Clasp
 
-#### Commands
+### Commands
 
 `clasp` is a command line application which exposes simple commands, allowing a user to:
 
@@ -17,7 +17,7 @@ This repo intends to be an example of how to set up clasp with a google app scri
 - __create__ a new standalone project which can be added to a user's workspace
 - __logout__ of a google account
 
-#### The anatomy of a `clasp` project
+### The anatomy of a `clasp` project
 
 - `.appscript.json`: Contains information about the Apps Script project, including which _Advanced Services_ are in use (such as BigQuery, etc.). This is shared between the local clasp project and google workspace.
 - `.clasp.json`: Contains information about the clasp project, such as the ID of the google workspace project which it is linked to and the root directory where the Apps Script files are located. This file only exists on the user's computer.
