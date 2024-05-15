@@ -73,7 +73,7 @@ You can also just copy and paste the url of your Apps Script project instead of 
 clasp clone "https://script.google.com/u/0/home/projects/your_apps_script_id/edit" --rootDir "./src"
 ```
 
-__Important__: You must move the generated `src/.clasp.json` file into your project's root directory.
+__Important__: You must move the generated `src/.clasp.json` file into your project's root directory to replace the existing one.
 
 ### Update file extensions
 
